@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class void Numbers() {
+public class Numbers {
 	String d;
 	public void main(){
 		
