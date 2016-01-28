@@ -1,0 +1,14 @@
+
+
+public class Komnata {
+
+	public static void Popal(String arg[m,g]){
+		Muha m = new Muha();
+		Gazeta g = new Gazeta();
+		 m.boom();
+		 g.boom();
+		 System.out.println(m.k);
+		 System.out.println(g.i);
+	}
+
+}

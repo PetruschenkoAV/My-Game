@@ -1,0 +1,10 @@
+import javax.swing.JOptionPane;
+
+public class Numbers {
+	String d;
+	public static void main(){
+		
+	d = JOptionPane.showInputDialog("FFFFFFF");
+	}
+
+}

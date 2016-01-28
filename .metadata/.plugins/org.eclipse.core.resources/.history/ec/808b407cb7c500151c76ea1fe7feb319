@@ -1,0 +1,9 @@
+import java.util.Random;
+
+public static class Muha {
+	int k;
+	public void boom() {
+		Random r = new Random();
+		k = r.nextInt(3);
+	}
+}
