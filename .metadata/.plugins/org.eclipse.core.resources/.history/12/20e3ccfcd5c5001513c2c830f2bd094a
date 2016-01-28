@@ -16,8 +16,8 @@ public class Komnata {
 		 o.setVisible(true);
 		 o.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		 o.setSize(600,600);
-		 //o.setResizable(false);
-		 o.setLocationRelativeTo(null);
+		 o.setResizable(false);
+		 o.setLocation(null);
 	}
 
 }

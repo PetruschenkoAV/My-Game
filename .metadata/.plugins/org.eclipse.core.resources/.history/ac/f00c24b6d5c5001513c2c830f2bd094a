@@ -15,9 +15,7 @@ public class Komnata {
 		 Okno o = new Okno();
 		 o.setVisible(true);
 		 o.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		 o.setSize(600,600);
-		 //o.setResizable(false);
-		 o.setLocationRelativeTo(null);
+		 o.setSize(200,200);
 	}
 
 }
