@@ -1,7 +1,0 @@
-
-public class Numbers {
-	public static void main(String arg[]){
-		System.out.println("It's my first program");
-	}
-
-}

@@ -1,0 +1,22 @@
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Image;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Okno extends JFrame{
+		JLabel L;
+		Image img = new ImageIcon("C:/2/MyGame/img/room.bmp").getImage();
+		public Okno() {
+			L = new JLabel("картинка");
+			add(L);
+		}
+			public void paint(Graphics g){
+				g = (Graphics2D) g;
+				g.drawImage(img,0,0, null);
+		
+		
+	}
+}

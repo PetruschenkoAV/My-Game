@@ -1,9 +1,0 @@
-import javax.swing.JOptionPane;
-
-public class Numbers {
-	public void main(){
-		
-	//	d = JOptionPane.showOptionDialog("")
-	}
-
-}
