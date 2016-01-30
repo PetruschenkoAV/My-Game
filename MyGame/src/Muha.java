@@ -1,9 +1,13 @@
 import java.util.Random;
 
-public class Muha {
+public class Muha extends jujalka{
 	int k;
-	public void boom() {
+	void boom() {
 		Random r = new Random();
 		k = r.nextInt(3);
+	}
+	void Bjj() {
+		System.out.println("JJJJJJ");
+		
 	}
 }

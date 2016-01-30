@@ -1,27 +1,28 @@
 
-import javax.swing.JFrame;
 
 public class Komnata {
-
+		static int f;
 	public static void main(String[] args){
-		Muha m = new Muha();
 		Gazeta g = new Gazeta();
+		Muha m = new Muha();
+		Komar kom = new Komar();
+		 kom.boom();
 		 m.boom();
 		 g.boom();
+		 
+		 if(m.k == kom.t){ 
+			 m.Bjj();
+			 f = m.k;
+		 }
+		 else {
+			 kom.Bjj();
+			 f = kom.t;
+		 }
+		 
 		 //System.out.println(m.k);
 		 //System.out.println(g.i);
-		 //if (m.k == g.i) System.out.println("попал!!!!");
-		 //else System.out.println("Не попал, попробуй еще");
-		 
-		 JFrame o = new JFrame("убей муху");
-		 o.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		 o.setSize(761,431);
-		 o.setLocationRelativeTo(null);
-		 o.add(new Okno()); 
-		 o.setVisible(true);
-		 //o.setResizable(false);
-		 
-		 
+		 if (f == g.i) System.out.println("попал!!!!");
+		 else System.out.println("Не попал, попробуй еще"); 
 	}
 
 }

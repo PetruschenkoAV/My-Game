@@ -1,0 +1,10 @@
+import java.util.Random;
+
+public class Gazeta {
+	//int i;
+	public static void boom() {
+		int i;
+		Random r = new Random();
+		i = r.nextInt(3);
+	}
+}
